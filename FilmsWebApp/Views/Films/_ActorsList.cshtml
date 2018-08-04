@@ -1,0 +1,8 @@
+﻿@model IEnumerable<FilmsWebApp.Models.Actor>
+
+
+@foreach (var item in Model) {
+    @*@item.FirstName @:&nbsp; @item.SecondName*@
+   @Html.DisplayFor(i => item, "Actor");
+}
+
